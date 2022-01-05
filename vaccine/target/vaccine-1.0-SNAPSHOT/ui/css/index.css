@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;700&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif; 
+}
+body{
+    background-image: url('../img/covid.jpg');
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+body .main_caontainer{
+    background-color: #6989c6;
+    opacity: 0.30;
+    width: 100%;
+    height: 100%;
+}
+body .login_form{
+    padding: 15px;
+    width: 35%;
+    position: fixed;
+    background: #fff;
+    z-index: 1;
+    left: 50%;
+    top: 50%;
+    border-radius: 7px;
+    box-shadow: 0px 0px 9px 2px #396a91;
+    transform: translate(-50%,-100%);
+}
+body .login_form form .input_Id{
+    display: flex;
+    align-items: center;
+    padding: 10px 0px;
+}
+body .login_form form .input_Id p{
+    width: 25%;
+}
+body .login_form form .input_Id input{
+    width: 75% !important;
+    height: 35px;
+    padding-left: 5px; 
+}
+body .login_form form .enterbtn,
+body .login_form form .input_Id input{
+    width: 100%;
+    height: 35px;
+    cursor: pointer;
+    float: right;
+    border-radius: 7px;
+    border: 0.5px solid #2196f3;
+    font-size: 16px;
+    transition: all ease-in-out 0.4s;
+    font-weight: 700;
+}
+body .login_form form .enterbtn:hover{
+    background-color: #2196f3;
+    color: white;
+    
+    
+}
+

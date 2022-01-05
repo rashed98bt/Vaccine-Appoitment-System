@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;700&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif; 
+}
+body{
+/*    background-image: url('../img/doctor_1.jpg');*/
+    background-color: #e6e6e6;
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    
+}
+body .tableStyle{
+    padding-top: 10%;
+    display: flex;
+    justify-content: center;
+}
+body .tableStyle table{
+    border-collapse: collapse;
+}
+
+body .tableStyle table thead tr{
+  background-color: #009688;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+}
+body .tableStyle table thead tr td{
+    padding: 10px;
+    
+}
+body .tableStyle table tbody tr:nth-child(odd){
+    background-color: #7e7e7e;
+    color: white;
+    font-weight: 400;
+}
+body .tableStyle table tbody tr:nth-child(even){
+    background-color: #c5c5c5;
+}
+body .tableStyle table tbody tr td{
+    padding: 10px;
+}
+
+.doctorForm {
+    padding-top: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 20vw;
+}
+.doctorForm div input{
+    height: 25px
+}
+.doctorForm div input:nth-child(1) {
+    /* background-color: #009688; */
+    width: 600px;
+    border-radius: 7px;
+    /* border: none; */
+    border: 0.5px solid #4caf50;
+    font-size: 15px;
+    outline: none;
+    font-weight: 700;
+    color: black;
+    cursor: pointer;
+}
+.doctorForm div input:nth-child(2) {
+    height: 25px;
+    width: 120px;
+    background: #4caf50;
+    font-weight: 700;
+    border-radius: 6px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+}

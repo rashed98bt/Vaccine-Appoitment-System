@@ -1,0 +1,5 @@
+com\mycompany\vaccine\connection\Connector.class
+com\mycompany\vaccine\bean\PersonBean.class
+com\mycompany\vaccine\business\AppoitmentServlit.class
+com\mycompany\vaccine\business\LoginServlit.class
+com\mycompany\vaccine\business\DoctorServlet.class
